@@ -37,7 +37,6 @@ large_font = pygame.font.SysFont("comicsans", 50)
 background = pygame.image.load("background.png")
 earth_lvl_1 = pygame.image.load("earth_lvl_1.png")
 earth_lvl_2 = pygame.image.load("earth_lvl_2.png")
-shop_button = pygame.image.load("shop_button.png")
 
 #SOUNDS
 pygame.mixer.music.load("background_sound.mp3")
@@ -132,7 +131,7 @@ while game:
     sc.blit(exit_text, (exit_button_rect.x + 35, exit_button_rect.y + 10))
 
     energy_text = medium_font.render(f"Energy: {energy}", 1, WHITE)
-    sc.blit(energy_text, (WIDTH // 2 - 50, 100))
+    sc.blit(energy_text, (WIDTH // 2 - 70, 100))
 
     color = (180, 180, 180) if upgrade_purchased else (50, 200, 50)
     pygame.draw.rect(sc, color, upgrade_button_rect)
