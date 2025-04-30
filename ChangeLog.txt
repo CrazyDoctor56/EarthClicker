@@ -1,0 +1,10 @@
+Hello!
+Its new update 0.2 of my game!
+
+-New animations
+-2 new planet
+-new mechanic of shop
+-Fullscreen for all devices
+-Bug fix
+
+Thank you!
