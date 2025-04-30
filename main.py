@@ -11,7 +11,7 @@ FPS = 60
 
 WHITE = (255, 255, 255)
 
-energy = 999999
+energy = 0
 base_epc = 1
 epc_bonus = 0
 epc_price = 200
